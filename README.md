@@ -12,7 +12,7 @@ A PowerShell script designed to build and manage a directory structure from the 
 
 If your policy is **Restricted**, **AllSigned**, or anything that blocks script execution, allow local scripts by running `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`. This lets you run scripts you've downloaded or written.
 
-3. **OPTIONAL**: _If_ you trust this script, unblock it by running  `Unblock-File -Path .\BuildDirectoryStructure.ps1`
+3. **OPTIONAL**: _If_ you trust this script, unblock it by navigating to where your script is saved running (e.g. `cd C:\Users\YourName\Downloads`). Then, run the command `Unblock-File -Path .\BuildDirectoryStructure.ps1`
   
 4. Run the script in one of two ways:
    - Right-click the file and click **Run with PowerShell**
