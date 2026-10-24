@@ -1,5 +1,10 @@
 # directory-structure
 
+## **Archived**
+This was my first repo and I don't have anything planned for it. If you want to fork this repo or check it out, feel free to!
+
+---
+
 A PowerShell script designed to build and manage a directory structure from the user's home directory.
 
 ---
